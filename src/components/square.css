@@ -1,0 +1,21 @@
+.square{
+    /* background-color:green  ; 
+    background-repeat:repeat;
+    background:radial-gradient(circle, black, white); */
+    background-color: #2e294e;
+    background-image: radial-gradient(#ffd400 6px, transparent 6px);
+    background-size: 60px 60px;
+    color:white;
+}
+
+.square:hover{
+   transform:scale(1.20); 
+}
+
+.hide{
+    display:none;
+}
+
+.square:hover + .hide {
+    display:block;
+}
