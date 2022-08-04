@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/culture-quilt/static/css/main.09b67ead.css",
+    "main.css": "/culture-quilt/static/css/main.ad3bc4ab.css",
     "main.js": "/culture-quilt/static/js/main.bb28ce15.js",
     "static/js/787.65d17e85.chunk.js": "/culture-quilt/static/js/787.65d17e85.chunk.js",
     "index.html": "/culture-quilt/index.html",
-    "main.09b67ead.css.map": "/culture-quilt/static/css/main.09b67ead.css.map",
+    "main.ad3bc4ab.css.map": "/culture-quilt/static/css/main.ad3bc4ab.css.map",
     "main.bb28ce15.js.map": "/culture-quilt/static/js/main.bb28ce15.js.map",
     "787.65d17e85.chunk.js.map": "/culture-quilt/static/js/787.65d17e85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09b67ead.css",
+    "static/css/main.ad3bc4ab.css",
     "static/js/main.bb28ce15.js"
   ]
 }
