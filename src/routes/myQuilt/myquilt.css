@@ -1,0 +1,62 @@
+
+
+.myQuilt-parent{
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr;
+    grid-column-gap:1%;
+    grid-row-gap:5%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.personal-square{
+    display:grid;
+    justify-items: center;
+    grid-column-start: 1    ;
+    grid-row-start: 1;
+    grid-row-end:-1;
+    background-color: aquamarine;
+
+}
+.id-info{
+    height:auto;
+    width:auto;
+    background-color: lightgrey;
+    border-radius: 15px;
+    color:black;
+    min-height: 40vh;
+    
+
+
+}
+
+.help-faq{
+    height:auto;
+    width:auto;
+    background-color: bisque;
+    border-radius: 15px;
+
+}
+.approved-images{
+    background-color: black;
+    border-radius: 15px;
+    grid-column: 2 / span 2;
+}
+
+.submit-edit-button{
+    background-color: lightgrey;
+    color: black;
+    font-size: 20px;
+    border-radius:20px;
+    width: 8vw;
+    padding: 0.5em 1em;
+}
+
+.submitlink{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}

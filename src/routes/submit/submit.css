@@ -1,0 +1,50 @@
+.imageForm{
+    background-color: antiquewhite;
+    display:flex;
+    margin-bottom: 50px;
+    
+}
+
+.currentSquare{
+    background-color: lavender;
+    width:30em;
+    display: grid;
+    justify-content: center;
+}
+
+.submitForm{
+
+}
+
+.image-upload>input {
+    display: none;
+  }
+
+.submit-parent{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+.current-images{
+    
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    width:40vw;
+    height:40vh;
+    background-color: lightgrey;
+    border-radius: 10px;
+    color:black;
+}
+
+.current-images>button{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius:20px;
+    width: 10vw;
+    padding: 0.5em 1em;
+    align-self: start;
+
+}

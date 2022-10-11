@@ -1,0 +1,44 @@
+.single-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:10vh;
+    margin-bottom: 10vh;
+    background-color: rgb(7, 7, 48);
+    justify-items: center;
+    align-items: center;
+    align-content: stretch;
+
+    /* justify-content: center;
+    align-content: center;
+    background-color: black;
+    height: 100%;s
+    width: 100%; */
+
+}
+
+.imageptile{
+    height:60vh;
+    width: auto;
+}
+
+.caption-image-page{
+    color:black;
+    width:50%;
+    align-self: end;
+    background-color: aliceblue;
+    margin-bottom: 5vh;
+}
+
+.backbutton{
+    background-color: lightgrey;
+    color: black;
+    font-size: 20px;
+    border-radius:20px;
+    width: 8vw;
+    padding: 0.5em 1em;
+    align-self: start;
+}

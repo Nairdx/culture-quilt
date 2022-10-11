@@ -3,19 +3,52 @@
     background-repeat:repeat;
     background:radial-gradient(circle, black, white); */
     background-color: #2e294e;
-    background-image: radial-gradient(#ffd400 6px, transparent 6px);
-    background-size: 60px 60px;
+    /* background-image: radial-gradient(#ffd400 6px, transparent 6px); */
+    background-size: 80px 80px;
     color:white;
-}
+    height:350px ;
+    width:350px;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 0.5em;
+/* 
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center; */
+
+
+    display:flexbox;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+} 
 
 .square:hover{
-   transform:scale(1.20); 
+   transform:scale(1.05); 
 }
+
+
 
 .hide{  
     visibility: hidden;
 }
 
-.square:hover .hide {
+.image-square:hover .hide {
     visibility:visible;
 }
+.tile{
+    flex-grow: 2;
+}
+.tilethree{
+    width: 200px;
+}
+.tile:hover {
+ cursor: pointer;
+ filter:contrast(150%);
+}
+
+.tilethree:hover {
+    cursor: pointer;
+    filter:contrast(150%);
+   }

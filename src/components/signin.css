@@ -1,0 +1,48 @@
+.signin{
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 1fr;
+    align-content: center;
+    align-items: center;
+    background-image: url('../landingpage1.png');
+    background-size: 100%;
+    justify-content: center;
+    height:100vh;
+    width:100vw;
+}
+.inputfield{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.input-button{
+    background-color: lightgrey;
+    color: black;
+    font-size: 16px;
+    border-radius:20px;
+    width: 10vw;
+    padding: 0.5em 1em;
+    align-self: center;
+}
+
+.signin-container{
+    background-color:rgb(85, 85, 152);
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+.form-container{
+    background-color:grey;
+    display:grid;
+    padding: 30px 30px 30px 30px;
+
+}
+
+.total-cont{
+    color:beige;
+    height:70vh;
+    margin: 30px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
+}

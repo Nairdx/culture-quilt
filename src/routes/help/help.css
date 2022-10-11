@@ -1,0 +1,17 @@
+.help-page{
+    text-decoration: underline;
+    color:navy;   
+}
+
+.Link::after{
+    content:"\a";
+}
+
+.helplinks{
+    display:flex;
+    flex-direction: column;
+    background-color: bisque;
+    box-shadow: 1em;
+
+}
+
