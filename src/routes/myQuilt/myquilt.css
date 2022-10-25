@@ -45,11 +45,21 @@
     grid-column: 2 / span 2;
 }
 
-.submit-edit-button{
+.submit-edit-button-e{
     background-color: lightgrey;
     color: black;
     font-size: 20px;
-    border-radius:20px;
+    border-radius:4px;
+    width: 10vw;
+    padding: 0.5em 3em;
+    margin-left: 1em;
+}
+
+.submit-edit-button-s{
+    background-color: lightgrey;
+    color: black;
+    font-size: 20px;
+    border-radius:4px;
     width: 8vw;
     padding: 0.5em 1em;
 }

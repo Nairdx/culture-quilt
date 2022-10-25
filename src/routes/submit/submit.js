@@ -24,16 +24,15 @@ const Submit = () => {
         return(
         <div className = "submit-parent">
             <div>
-            <h1>My Quilt Submit</h1>
+            <h1 className = "submit-t">My Quilt Submit</h1>
 
        </div>
       <br />
-     
       <br /> 
 
-      <div class="image-upload">
+      <div className="image-upload">
         <label for="image-input">
-            <img src={myImage} width = {300} height = {300} />
+            <img className = "upload-button" src={myImage}/>
         </label>
             
       <input
@@ -58,11 +57,15 @@ const Submit = () => {
         {selectedImage && ( 
                 <div className = "current-images">
                      {selectedImage.length >=0 &&  selectedImage.map((image, idx) => (
-                     <img id={idx} alt = {idx} style={{width: 150, height: 150}} src={URL.createObjectURL(image)} />
+                     <div className = "inner-cur-images" id = {idx}>
+                     <img id={idx} alt = {idx} className = "displayed-image" src={URL.createObjectURL(image)} />
+                     {/* <button onClick={()=>setSelectedImage((prevArr)=>[(prevArr.filter((_, i) => {console.log(prevArr); return i !== idx}))])}>Remove</button> */}
+                     <button className = "cur-images-button"onClick={()=>setSelectedImage([...selectedImage.slice(0, idx),...selectedImage.slice(idx + 1)])}>Remove</button> 
+                     </div>
                      ))}
 
                     <br />
-                    <button onClick={()=>setSelectedImage([])}>Remove</button>
+                    {/* <button onClick={()=>setSelectedImage([])}>Remove</button> */}
                 </div>
                 )}
 

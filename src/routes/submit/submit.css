@@ -16,35 +16,63 @@
 
 }
 
+.upload-button{
+    width:35vw;
+    height:auto;
+}
+
 .image-upload>input {
     display: none;
   }
+
+.submit-t{
+    margin: 3vh 0vw;
+    float: left;
+}
 
 .submit-parent{
     display:grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    
 
 }
 .current-images{
-    
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-items: stretch;
     width:40vw;
-    height:40vh;
+    height:60vh;
     background-color: lightgrey;
     border-radius: 10px;
     color:black;
 }
 
-.current-images>button{
+.inner-cur-images{
+    width:15vw;
+    margin: 1vh 2vw;
+}
+
+/* #2.inner-cur-images{
+    grid-column: 1 / span 2;
+    width:20vw;
+    height: 30vh;
+    background-color: aquamarine;
+} */
+
+.cur-images-button{
     background-color: white;
     color: black;
     font-size: 16px;
-    border-radius:20px;
-    width: 10vw;
+    border-radius:4px;
+    width: 15vw;
     padding: 0.5em 1em;
-    align-self: start;
 
+}
+
+.displayed-image{
+    width:15vw;
+    height:20vh;
 }

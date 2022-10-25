@@ -14,16 +14,16 @@ return(
             <Outlet/>
         </Fragment>
         <div className = "landing-t">
-            <h1>Welcome to the RA &amp; RDQA Culture Quilt</h1>
+            <h1 className='landing-titles'>Welcome to the RA &amp; RDQA Culture Quilt</h1>
             <p>
-            The Culture Quilt provides a glimpse into the diversity of RA &amp; RDQA colleagues. This diversity shows up in skills, experiences, values, heritage and more, and ensures that RA & RDQA well placed to:
+            The culture quilt provides a glimpse into the diversity of RA &amp; RDQA colleagues. This diversity shows up in skills, experiences, values, heritage and more, and ensures that RA & RDQA well placed to:
             </p>
-            <ul>
+            <ul className = "landing-list">
                 <li>develop innovative solutions and approaches</li>
                 <li>understand their business partners, customers and patients, and</li>
                 <li>demonstrate cultural sensitivity and inclusivity.</li>
             </ul>
-            <p>With this in mind, please use RA &amp; RDQA Culture Quilt internally only.</p>
+            <p>With this in mind, please use RA &amp; RDQA culture quilt internally only.</p>
         </div>
         
 

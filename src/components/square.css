@@ -2,8 +2,9 @@
     /* background-color:green  ; 
     background-repeat:repeat;
     background:radial-gradient(circle, black, white); */
-    background-color: #2e294e;
+    /* background-color: #2e294e; */
     /* background-image: radial-gradient(#ffd400 6px, transparent 6px); */
+    background-image:url('../background-tile.jpg.png'); ;
     background-size: 80px 80px;
     color:white;
     height:350px ;
@@ -39,9 +40,12 @@
 }
 .tile{
     flex-grow: 2;
+    height:160px;
+    width : 170px;
 }
 .tilethree{
-    width: 200px;
+    width: 230px;
+    height:160px;
 }
 .tile:hover {
  cursor: pointer;

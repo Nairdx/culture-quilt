@@ -17,8 +17,8 @@ const MyQuilt = () =>{
             <Square id = {mySquare.id} image = {mySquare.image} tags = {mySquare.tags} caption = {mySquare.caption}/>
             <Fragment>
                 <div className ="submitlink">
-                    <Link className = "help-page" to ='../submit'> <button className = "submit-edit-button">Submit</button></Link>
-                    <Link className = "help-page" to ='auth'> <button className = "submit-edit-button">Edit/Delete</button></Link>
+                    <Link className = "help-page" to ='../submit'> <button className = "submit-edit-button-s">Submit</button></Link>
+                    <Link className = "help-page" to ='auth'> <button className = "submit-edit-button-e">Edit/Delete</button></Link>
                 </div>
                 <Outlet/>
             </Fragment>

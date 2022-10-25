@@ -6,7 +6,7 @@ import TextContainer from './textcontainer';
 const Footer = ()=>{
     return(
         <div className = "footer">
-            <div className = "text-container">
+            <div className = "text-container-l">
             <h1 className ="footer-title">We hope you'll contribute to the RA &amp; RDQA Culture Quilt!</h1>
             <ul className="footer-list">
                 <li>You can submit up to three digital photos. Each photo should represent what culture means to you and can include people, food, places - anything that represents your culture at home or work</li>
@@ -14,8 +14,8 @@ const Footer = ()=>{
                 <li>You can change your photos every 4 months</li>
             </ul>
             </div>
-            <div className = "text-container">
-                <h1>You can use the Culture Quilt in a number of ways…</h1>
+            <div className = "text-container-r">
+                <h1 className ="footer-title">You can use the Culture Quilt in a number of ways…</h1>
                 <ul>
                     <li>Learn more about your RA &amp; RDQA colleagues</li>
                     <li>Sort by function or team to start a discussion about the value of diversity</li>

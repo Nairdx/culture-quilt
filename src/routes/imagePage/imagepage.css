@@ -1,4 +1,4 @@
-.single-container{
+/* .single-container{
     display: grid;
     grid-template-columns: 1fr;
     height: 80vh;
@@ -16,22 +16,23 @@
     align-content: center;
     background-color: black;
     height: 100%;s
-    width: 100%; */
+    width: 100%; 
 
-}
+} 
+/*
 
 .imageptile{
     height:60vh;
     width: auto;
 }
 
-.caption-image-page{
+/* .caption-image-page{
     color:black;
     width:50%;
     align-self: end;
     background-color: aliceblue;
     margin-bottom: 5vh;
-}
+} */
 
 .backbutton{
     background-color: lightgrey;
