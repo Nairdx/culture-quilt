@@ -1,14 +1,23 @@
 .landingPage{
     display: grid;
     align-items: center;
-    background-image: url('../../13.jpg');
-    background-size: 100%;
+    position: relative;
     height: 100vh;
-
-
-
+    width: 100vw;
 }
 
+
+.landingPage::before {
+    content: "";
+    position: absolute;
+    background-image: url('../../13.jpg');
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.70;
+}
 .login-container{
     background-color: white;
     text-align: center;
@@ -30,7 +39,7 @@ body {
     width: 8vw;
     float: right;
     margin:0em 7em ;
-    
+    position: relative;
     padding: 0.5em 1em;
     justify-self: end;
 }
@@ -38,18 +47,21 @@ body {
 .landing-t{
     color:black;
     text-align: left;
-    font-size:1.5em;
+    font-size:1.8em;
     width:60%;
     margin-left:10%;
     line-height: 1.7em;
     font-weight: bold;
+    position:relative
 }
 
 .landing-list{
     list-style: none;
+    position:relative
     
 }
 
 .landing-titles{
-    margin-bottom: 5%;    
+    margin-bottom: 3%;
+    position:relative    
 }

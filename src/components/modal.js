@@ -22,7 +22,7 @@ const Modal = ({ open, onClose, props }) => {
               <img className = "imageptile" alt = {"square"} src = {props.image}/>
               <figcaption className = "fig-caption">{props.caption}</figcaption> 
             </figure>
-            <div className = "caption-image-page">
+            <div className = "caption-image">
              <p1>{props.tags}</p1> 
             </div>
          </div>

@@ -18,7 +18,7 @@ const MyQuilt = () =>{
             <Fragment>
                 <div className ="submitlink">
                     <Link className = "help-page" to ='../submit'> <button className = "submit-edit-button-s">Submit</button></Link>
-                    <Link className = "help-page" to ='auth'> <button className = "submit-edit-button-e">Edit/Delete</button></Link>
+                    <Link className = "help-page" to ='../my-quilt-submission' state={{ square: mySquare }}> <button className = "submit-edit-button-e">Edit/Delete</button></Link>
                 </div>
                 <Outlet/>
             </Fragment>

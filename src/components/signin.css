@@ -21,7 +21,7 @@
     background-color: lightgrey;
     color: black;
     font-size: 16px;
-    border-radius:20px;
+    border-radius:4px;
     width: 10vw;
     padding: 0.5em 1em;
     align-self: center;
@@ -31,13 +31,15 @@
     background-color:rgb(85, 85, 152);
     font-size:1.5em;
     font-weight:bold;
+    text-align:left;
+    padding: 1.1em 1.1em;
 }
 
 .form-container{
     background-color:grey;
     display:grid;
     padding: 30px 30px 30px 30px;
-
+    padding: 1.1em 1.1em;
 }
 
 .total-cont{
@@ -45,4 +47,9 @@
     height:70vh;
     margin: 30px 30px 30px 30px;
     padding: 30px 30px 30px 30px;
+}
+
+.label-signin{
+    font-weight:bold;
+    font-size: 1.1em;
 }

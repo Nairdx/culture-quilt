@@ -40,9 +40,9 @@ const SignIn = ()=>{
             </div>
             <div className = "form-container">
             <form onSubmit={submitHandler}>
-                <label>Username</label>
+                <label className = "label-signin">Username</label>
                 <input className = "inputfield" required type = 'text' name = "username" value = {username} onChange = {(e) => setusername(e.target.value)}></input>
-                <label>Password</label>
+                <label className = "label-signin">Password</label>
                 <input className = "inputfield" required type = 'password' name = "password" value = {password} onChange = {(e) => setpassword(e.target.value)}></input>
                 <button className ="input-button"type ="submit"> Submit</button>
             </form>

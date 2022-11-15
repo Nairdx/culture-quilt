@@ -18,7 +18,7 @@
 .navbar {
     display: flex;
     width: 100vw;
-    background-color: rgb(85, 85, 152);
+    background-color: #00003a;
     align-items: center;
     justify-content: space-between;
     align-self: right;
@@ -63,7 +63,7 @@
 }
 
 .titlebar{
-    background-color:rgb(3, 3, 117);
+    background-color:#00003a;
     color:white;
     height:10vh;
     width: 90vw;

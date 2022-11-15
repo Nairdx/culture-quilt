@@ -1,6 +1,6 @@
 import React from 'react';
 import "./landingpage-footer.css";
-import TextContainer from './textcontainer';
+
 
 
 const Footer = ()=>{
@@ -16,7 +16,7 @@ const Footer = ()=>{
             </div>
             <div className = "text-container-r">
                 <h1 className ="footer-title">You can use the Culture Quilt in a number of ways…</h1>
-                <ul>
+                <ul className = "footer-list">
                     <li>Learn more about your RA &amp; RDQA colleagues</li>
                     <li>Sort by function or team to start a discussion about the value of diversity</li>
                     <li>Explore different tags to find connections and common interests</li>

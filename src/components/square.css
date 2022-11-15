@@ -4,11 +4,11 @@
     background:radial-gradient(circle, black, white); */
     /* background-color: #2e294e; */
     /* background-image: radial-gradient(#ffd400 6px, transparent 6px); */
-    background-image:url('../background-tile.jpg.png'); ;
-    background-size: 80px 80px;
+    /* background-image:url('../abbvie_denim.png'); */
+    background-size: 50px 50px;
     color:white;
-    height:350px ;
-    width:350px;
+    height:360px ;
+    width:365px;
     margin: 0.5em 0.5em 0.5em 0.5em;
     border-radius: 0.5em;
 /* 
@@ -39,14 +39,18 @@
     visibility:visible;
 }
 .tile{
+    margin-top: 6px;
     flex-grow: 2;
     height:160px;
     width : 170px;
+    border: 3px solid transparent; 
 }
 .tilethree{
-    width: 230px;
-    height:160px;
+    width: 320px;
+    height:170px;
+    border: 1px solid transparent;
 }
+
 .tile:hover {
  cursor: pointer;
  filter:contrast(150%);
@@ -56,3 +60,18 @@
     cursor: pointer;
     filter:contrast(150%);
    }
+
+.tile-case2{
+    margin-top: 3px;
+    width: 320px;
+    height:170px;
+    border: 1px solid transparent;
+}
+
+.tile-case1{
+    margin-top: 16px;
+    width: 320px;
+    height:320px;
+    border: 1px solid transparent;
+
+}

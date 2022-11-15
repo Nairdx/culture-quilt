@@ -11,6 +11,7 @@ import Auth from './routes/auth/auth';
 import Help from './routes/help/help';
 import ImagePage  from './routes/imagePage/imagepage';
 import MyQuilt from './routes/myQuilt/myquilt';
+import UserSubmit from './routes/usersubmit/usersubmit';
 //import Square from './components/square';
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route path = 'help' element = {<Help/>}/>
         <Route path = 'help/auth' element = {<Auth/>}/>
         <Route path = 'view/imagepage' element = {<ImagePage/>}/>
+        <Route path = 'my-quilt-submission' element = {<UserSubmit/>}/>
       </Route>
     </Routes>
   </Fragment>

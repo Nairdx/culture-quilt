@@ -4,12 +4,14 @@
     display:grid;
     grid-template-columns: 2fr 1fr 1fr ;
     grid-template-rows:1fr 1fr;
-    grid-column-gap:1%;
+    grid-column-gap:5%;
     grid-row-gap:5%;
     align-content: center;
+    justify-content: space-around;
+    width:90%;
     margin-left: auto;
     margin-right: auto;
-
+    margin-top: 5%;
 }
 .personal-square{
     display:grid;
@@ -17,7 +19,7 @@
     grid-column-start: 1    ;
     grid-row-start: 1;
     grid-row-end:-1;
-    background-color: aquamarine;
+    background-color: lightgrey;
 
 }
 .id-info{
@@ -35,12 +37,12 @@
 .help-faq{
     height:auto;
     width:auto;
-    background-color: bisque;
+    background-color: lightgrey;
     border-radius: 15px;
 
 }
 .approved-images{
-    background-color: black;
+    background-color: lightgrey;
     border-radius: 15px;
     grid-column: 2 / span 2;
 }

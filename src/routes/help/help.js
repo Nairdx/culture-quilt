@@ -14,15 +14,36 @@ const Help = ()=>{
     }
     return(
         <Fragment>
-            <div className ="helplinks">
+
+<div className="helpheader"> 
+                <h1 style={{
+                    paddingTop: '10px',
+                    textAlign: 'center'
+                }}>
+                    Frequently Asked Questions
+                </h1>
+                </div>
+                <div className = "help-grid">
+                    <div className = "help-square"> <Link className = "help-page" to =' auth'>Why was my photo/caption rejected?</Link></div>
+                    <div className = "help-square"><Link className = "help-page" to ='auth'>How to edit and or delete an uploaded photo?</Link></div>
+                    <div className = "help-square"><Link className = "help-page" to ='auth'>How do I search stuff in the culture quilt?</Link> </div>
+                </div>
+                
+              
+            <Outlet/>
+        </Fragment>
+    );
+};
+export default Help;
+
+            {/* <div className ="helplinks">
+
+         
                 <h1>Frequently Asked Questions</h1>
                 <Link className = "help-page" to =' auth'>Why was my photo/caption rejected?</Link>
                 <Link className = "help-page" to ='auth'>How to edit and or delete an uploaded photo?</Link>
                 <Link className = "help-page" to ='auth'>What is the purpose of the culture quilt?</Link>
                 <Link className = "help-page" to ='auth'>How do I search stuff in the culture quilt?</Link> 
             </div>
-            <Outlet/>
-        </Fragment>
-    );
-};
-export default Help;
+
+             */}
