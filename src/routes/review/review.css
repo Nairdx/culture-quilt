@@ -1,0 +1,60 @@
+.review-unit{
+    height:35vh;
+    width:20vw;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 5vh 5vh 3vw 3vw; 
+    margin: 5vh 3vw;
+   
+}
+
+ .inputfield-submit-review{
+    display: flex ;
+    align-items: center;
+    justify-items: center;
+    width: 85%;
+    height: 10%;
+    padding: 12px 20px;
+    margin: 3px 0px;
+    margin-right: 5px;
+    box-sizing: content-box;
+  }
+  .review-title{
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 3vh 5vw ;
+  }
+  
+  .review-unit-design{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  } 
+
+  .input-button-g{
+    background-color: rgb(97, 190, 97);
+    color: black;
+    font-size: 16px;
+    border-radius:4px;
+    border-color: transparent;
+    width: 10vw;
+    padding: 0.5em 1em;
+    align-self: center;
+}
+
+.input-button-r{
+    background-color: lightcoral;
+    color: black;
+    font-size: 16px;
+    border-radius:4px;
+    /* margin-left: 2px; */
+    border-color: transparent;
+    width: 10vw;
+    padding: 0.5em 1em;
+    align-self: center;
+}
+
+.image-approve{
+    height:80%;
+    width:90%;
+    margin-left: 10px;
+}

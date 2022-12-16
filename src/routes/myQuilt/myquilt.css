@@ -10,17 +10,27 @@
     justify-content: space-around;
     width:90%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     margin-top: 5%;
 }
 .personal-square{
     display:grid;
-    justify-items: center;
-    grid-column-start: 1    ;
+   justify-items: center;
+   align-items: center;
+    grid-column-start: 1 ;
     grid-row-start: 1;
     grid-row-end:-1;
     background-color: lightgrey;
 
+}
+
+.myquilt-square{
+    width:100px;   
+}
+.display-header{
+    margin-top: 8%;
+    margin-bottom:8%;
+    
 }
 .id-info{
     height:auto;
@@ -29,9 +39,13 @@
     border-radius: 15px;
     color:black;
     min-height: 40vh;
-    
+    line-height: 250%;
+    padding-left: 5%;
 
+}
 
+.myquilt-square-title{
+    font-size: 2.5em;
 }
 
 .help-faq{
@@ -44,7 +58,11 @@
 .approved-images{
     background-color: lightgrey;
     border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column: 2 / span 2;
+    align-content: center;
+    justify-content: space-evenly;
 }
 
 .submit-edit-button-e{
@@ -71,4 +89,26 @@
     grid-template-columns:1fr 1fr;
     justify-items: center;
     align-items: center;
+}
+
+.image_approve{
+    width:250px;
+    height:250px;
+    margin-left: 20px;
+}
+
+.helpheader-myquilt {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 204, 245);
+    box-shadow: 1em;
+    padding: 2% 2%;
+}
+.help-square-myq{
+    margin:2vh 2vw ;
+}
+
+.help-faq-myq{
+    background-color: lightgrey;
+    border-radius: 15px;
 }

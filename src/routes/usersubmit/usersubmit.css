@@ -7,3 +7,9 @@
     grid-template-columns:1fr 1fr ;
     grid-template-rows:1fr 1fr ;
 }
+
+.submit-p-title{
+    text-align: center;
+    font-size: 3em;
+    margin: 2% 2%;
+}

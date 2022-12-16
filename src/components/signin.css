@@ -1,11 +1,16 @@
+
+
+
+
 .signin{
     display: grid;
     grid-template-columns: 80%;
     grid-template-rows: 1fr;
     align-content: center;
     align-items: center;
-    background-image: url('../landingpage1.png');
+    background-image: url('../13.jpg');
     background-size: 100%;
+    opacity:0.80 ;
     justify-content: center;
     height:100vh;
     width:100vw;

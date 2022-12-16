@@ -12,14 +12,16 @@
   }
   .submitform-parent{
     display:grid;
-    background-color: rgb(255 255 255);
-    background-image: url(../abbvie_denim.png);
-    height:40vh;
+    background-color: lightgrey;
+    /* background-image: url(../abbvie_denim.png); */
+    height:50vh;
     width:40vw;
     justify-content: center;
     align-items: center;
     padding:5% 5%;  
-    margin: 5% 5%; 
+    margin: 5% 5%;   
+    border: 3px;
+    border-color: black;
   }
 
   .inputfield-submit{

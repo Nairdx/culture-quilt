@@ -6,7 +6,7 @@ const UserSubmit = () => {
     const {square}= location.state;
     return(
         <div className = "userSubmit-Parent">
-            <h1>Submit</h1>
+            <h1 className = "submit-p-title">Submit</h1>
             <div className = "userSubmit-Grid">
                 <SubmitForm sq = {square} id = {0}/>
                 <SubmitForm sq = {square} id = {1}/>

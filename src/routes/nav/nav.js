@@ -41,6 +41,10 @@ const Navigator = () =>{
                             <Link className = "navlink" to ='/help' >
                                 Help
                             </Link>
+                            <Link className = "navlink" to ='/review' >
+                                Approve
+                            </Link>
+
                         </div>
                     </div>
                 {/* </div> */}

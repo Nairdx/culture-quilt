@@ -1,0 +1,128 @@
+.help-page {
+    text-decoration: underline;
+    color: navy;
+}
+
+.Link::after {
+    content: "\a";
+}
+
+.helplinks {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    box-shadow: 1em;
+
+}
+
+.helpheader {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 204, 245);
+    box-shadow: 1em;
+    padding: 2% 2%;
+}
+
+.help-square {
+    /* background-color:green  ; 
+    background-repeat:repeat;
+    background:radial-gradient(circle, black, white); */
+    /* background-color: #2e294e; */
+    /* background-image: radial-gradient(#ffd400 6px, transparent 6px); */
+    background-size: 80px 80px;
+    color: rgb(73, 73, 73);
+    height: 350px;
+    width: 350px;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    background-color: lightgrey;
+    border-radius: 15px;
+    color: black;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: start;
+    margin-top: 1em;
+    /* justify-items: center;
+    align-items: center;
+    /* display: flexbox; */
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+}
+
+.help-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    justify-content: space-around;
+}
+
+.modal-open {
+    padding: 8px 16px;
+    background: royalblue;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin-top: 2em;
+}
+
+.modal {
+    position: fixed;
+    font-family: 'Roboto';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2;
+    display: none;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin-top: 100px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 24px;
+    border-radius: 4px;
+    z-index: 4;
+}
+
+.modal-header {
+    font-weight: 500;
+    padding: 10px 0;
+    font-size: 26px;
+
+}
+
+.modal-header .modal-close {
+    float: right;
+    font-size: 20px;
+    background: #efefef;
+    border: 0;
+    outline: 0;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+
+.modal-body {
+    color: #7b7b7b;
+    padding: 15px 0;
+
+}
+
+.modal-footer {
+    padding: 15px 0;
+}
+
+modal-footer .modal-close {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #1a73e8;
+}
